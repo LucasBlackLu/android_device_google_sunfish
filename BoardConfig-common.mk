@@ -20,6 +20,8 @@ include build/make/target/board/BoardConfigPixelCommon.mk
 TARGET_BOARD_PLATFORM := sm6150
 TARGET_BOARD_INFO_FILE := device/google/sunfish/board-info.txt
 USES_DEVICE_GOOGLE_SUNFISH := true
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
 
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
