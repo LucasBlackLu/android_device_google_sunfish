@@ -32,10 +32,6 @@ PRODUCT_PRODUCT_PROPERTIES += ro.opa.eligible_device=true
 PRODUCT_PACKAGES += \
     HbmSVManagerOverlay
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
-
 # Parts
 PRODUCT_PACKAGES += \
     GoogleParts
@@ -44,9 +40,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
-
-# Touch
-include hardware/google/pixel/touch/device.mk
 
 # Build necessary packages for system_ext
 
