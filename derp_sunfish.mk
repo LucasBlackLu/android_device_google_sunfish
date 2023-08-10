@@ -9,6 +9,9 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 4a
 PRODUCT_NAME := derp_sunfish
 
+# Enable quick tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
