@@ -209,6 +209,10 @@ TARGET_USES_GRALLOC1 := true
 TARGET_USES_HWC2 := true
 TARGET_USES_NV21_CAMERA_PREVIEW := true
 
+# Adaptive charging
+PRODUCT_COPY_FILES += \
+    device/google/sunfish/conf/adaptivecharging.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/adaptivecharging.xml
+
 # Display
 TARGET_HAS_WIDE_COLOR_DISPLAY := true
 TARGET_HAS_HDR_DISPLAY := true
