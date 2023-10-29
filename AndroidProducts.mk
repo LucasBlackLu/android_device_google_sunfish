@@ -23,5 +23,6 @@ COMMON_LUNCH_CHOICES := \
     aosp_sunfish-userdebug \
     derp_sunfish-userdebug \
     derp_sunfish-eng \
+    derp_sunfish-user \
 
 
