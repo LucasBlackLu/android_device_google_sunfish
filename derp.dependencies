@@ -1,0 +1,14 @@
+[
+   {
+     "repository": "kernel_google_msm-4.14",
+     "target_path": "kernel/google/msm-4.14",
+     "branch":"13",
+     "remote":"LucasBlackLu"
+   },
+   {
+      "repository":"proprietary_vendor_google_sunfish",
+      "target_path":"vendor/google/sunfish",
+      "branch":"13",
+      "remote":"LucasBlackLu"
+   }
+]
